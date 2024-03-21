@@ -4,7 +4,7 @@ const Article = require("./models/Article")
 const mongoose = require("mongoose");
 
 mongoose
-	.connect( "mongodb+srv://benkhaouaanes70:FmhNCMeilvDkCN0x@cluster0.xs4jpvn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+	.connect("mongodb+srv://benkhaouaanes70:FmhNCMeilvDkCN0x@cluster0.xs4jpvn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 		//"mongodb+srv://yarob2:yarob123@myfirstnodejscluster.toaytf9.mongodb.net/?retryWrites=true&w=majority"
 	)
 	.then(() => {
