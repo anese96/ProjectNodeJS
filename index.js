@@ -18,9 +18,14 @@ mongoose
 
 
 app.use(express.json());
+
+app.get("/", (req, res) => {
+	res.send("hello in node js project");
+});
 app.get("/hello",(req,res) =>{
     res.send("Hello")
 })
+
 app.get("/say",(req,res) =>{
     //console.log(req.body.name);
     res.send("Your name is " + req.body.articleTitle)
